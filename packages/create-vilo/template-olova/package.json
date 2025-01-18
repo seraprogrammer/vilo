@@ -1,0 +1,43 @@
+{
+  "name": "template-olova",
+  "version": "2.0.0",
+  "description": "🚀 A sleek and modern template powered by Olova with Vite for blazing-fast development.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview"
+  },
+  "keywords": [
+    "olova",
+    "vite",
+    "template",
+    "modern",
+    "fast",
+    "web-development",
+    "bangladeshi",
+    "framework"
+  ],
+  "author": "Nazmul Hossain",
+  "license": "MIT",
+  "homepage": "https://olova.js.org/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seraprogrammer/vilo"
+  },
+  "bugs": {
+    "url": "https://github.com/seraprogrammer/vilo/issues"
+  },
+  "dependencies": {
+    "olova": "^2.0.2",
+    "olovaplugin": "^1.0.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
