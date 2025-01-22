@@ -31,11 +31,11 @@
     "url": "https://github.com/seraprogrammer/vilo/issues"
   },
   "dependencies": {
-    "olova": "^2.0.2",
-    "olovaplugin": "^1.0.1"
+     "olova": "latest",
+     "olovaplugin": "latest"
   },
   "devDependencies": {
-    "vite": "^6.0.7"
+    "vite": "latest"
   },
   "engines": {
     "node": ">=16.0.0"
