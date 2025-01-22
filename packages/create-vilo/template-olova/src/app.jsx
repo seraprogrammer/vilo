@@ -1,9 +1,9 @@
-import Olova, { State, Memo } from "olova";
+import Olova, { $signal, $memo } from "olova";
 import "./style.css";
 
 const App = () => {
-  const [count, setCount] = State(0);
-  const result = Memo(() => count * 2, [count]);
+  const [count, setCount] = $signal(0);
+  const result = $memo(() => count * 2, [count]);
 
   return (
     <>
