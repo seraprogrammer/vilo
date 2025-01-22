@@ -35,7 +35,7 @@
      "olovaplugin": "latest"
   },
   "devDependencies": {
-    "vite": "latest"
+    "vite": "^6.0.7"
   },
   "engines": {
     "node": ">=16.0.0"
