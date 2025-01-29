@@ -30,7 +30,7 @@
     "url": "https://github.com/olovajs/olova/issues"
   },
   "dependencies": {
-    "olova": "^2.0.8",
+    "olova": "^2.0.9",
     "olovaplugin": "^1.0.2"
   },
   "devDependencies": {
