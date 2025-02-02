@@ -5,7 +5,7 @@ import Logo from "/olova.png";
 const App = () => {
   const [count, setCount] = $state(0);
   return (
-    <>
+    <div>
       <div className="gradient-bg bg-1"></div>
       <div className="gradient-bg bg-2"></div>
 
@@ -36,7 +36,7 @@ const App = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
