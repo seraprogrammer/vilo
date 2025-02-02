@@ -22,8 +22,8 @@ const App = () => {
         </p>
 
         <div className="count-btn">
-          <button className="button" onClick={() => setCount(count + 1)}>
-            count is {count}
+          <button className="button" onClick={() => setCount((c) => c + 1)}>
+            count is {count()}
           </button>
         </div>
 
