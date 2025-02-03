@@ -23,7 +23,7 @@ const App = () => {
 
         <div className="count-btn">
           <button className="button" onClick={() => setCount((c) => c + 1)}>
-            count is {count()}
+            count is {count}
           </button>
         </div>
 
@@ -31,7 +31,7 @@ const App = () => {
           <a href="https://olova.js.org/" className="button primary">
             Get Started
           </a>
-          <a href="https://olova.js.org/tryolova.html" className="button">
+          <a href="https://olova.js.org/learn.html" className="button">
             Documentation
           </a>
         </div>
