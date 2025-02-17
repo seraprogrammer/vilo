@@ -1,9 +1,9 @@
-import { $state } from "olova";
+import { createSignal } from "olova";
 import "./style.css";
 import Logo from "/olova.png";
 
 const App = () => {
-  const [count, setCount] = $state(0);
+  const [count, setCount] = createSignal(0);
   return (
     <div>
       <div className="gradient-bg bg-1"></div>
