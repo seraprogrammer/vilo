@@ -1,7 +1,8 @@
 {
   "name": "olova",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "A project using Olova framework with Vite.",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
