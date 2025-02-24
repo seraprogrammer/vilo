@@ -1,9 +1,9 @@
-import { createSignal } from "olova";
+import { setSignal } from "olova";
 import "./style.css";
 import Logo from "/olova.png";
 
 const App = () => {
-  const [count, setCount] = createSignal(0);
+  const [count, setCount] = setSignal(0);
   return (
     <div>
       <div className="gradient-bg bg-1"></div>
