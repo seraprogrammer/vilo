@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "olova": "2.0.15",
+    "olova": "2.0.17",
     "olovaplugin": "1.0.4"
   },
   "devDependencies": {
